@@ -1,23 +1,69 @@
 aid: biomind
+
 name: BioMind
-description: 'BioMind is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'BioMind Health is an award‑winning artificial intelligence company delivering a Biological Operating System that merges AI, ancient wisdom, and biotechnology to provide educational health intelligence. The platform offers modules on nutrition, emotion, and biology, serving hospitals, clinicians, and individuals worldwide, aiming to make biological literacy accessible and empower personalized health insights.'
+
 url: https://raw.githubusercontent.com/api-evangelist/biomind/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
 - Company
-apis: []
+- AI
+- Health
+- Biotechnology
+- Education
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/biomind-plans-pricing.yml
+- type: Hosts
+  url: hosts/biomind-hosts.yml
+- type: TermsOfService
+  url: https://www.biomindhealth.com/terms.html
+- type: SignUp
+  url: https://www.biomindhealth.com/auth/signup.php
+- type: PrivacyPolicy
+  url: https://www.biomindhealth.com/privacy.html
+- type: Pricing
+  url: https://www.biomindhealth.com/pricing.html
+- type: DomainSecurity
+  url: security/biomind-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.biomindhealth.com/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: The BioMind website provides no developer program or API documentation.
+  evidence:
+    - url: https://www.biomindhealth.com/
+      status: 200
+  checked: '2026-09-28'
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

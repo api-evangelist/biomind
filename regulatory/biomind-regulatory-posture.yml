@@ -1,0 +1,36 @@
+generated: '2026-09-28'
+method: probed
+source: "https://www.biomindhealth.com/privacy.html"
+signals:
+  data_subject_request:
+    evidence:
+      - source: "Privacy Policy"
+        http_status: 200
+        fetched: "https://www.biomindhealth.com/privacy.html"
+        quote: "You have the right to: Access and review your personal data; Request correction or deletion of information; Withdraw consent at any time; Export your BioMind data in a portable format; Deactivate or delete your account"
+        section: "Your Rights"
+        note: "Specifies user rights to access, correct, delete, export and deactivate data, fulfilling data subject request obligations."
+  ai_transparency:
+    evidence:
+      - source: "Privacy Policy"
+        http_status: 200
+        fetched: "https://www.biomindhealth.com/privacy.html"
+        quote: "BioMind’s AI models are built to empower human understanding — not to control, manipulate, or diagnose. Our algorithms are transparent, interpretable, and ethically governed under the principles of fairness, accountability, and human oversight."
+        section: "AI Ethics and Transparency"
+        note: "Describes AI transparency and ethical governance."
+  data_residency:
+    evidence:
+      - source: "Privacy Policy"
+        http_status: 200
+        fetched: "https://www.biomindhealth.com/privacy.html"
+        quote: "BioMind Health operates globally and may transfer data between secure servers located in different regions. All transfers comply with international data protection frameworks."
+        section: "International Users"
+        note: "Mentions cross‑region data transfers and compliance, indicating data residency considerations."
+  data_retention:
+    evidence:
+      - source: "Privacy Policy"
+        http_status: 200
+        fetched: "https://www.biomindhealth.com/privacy.html"
+        quote: "Personal information is retained only as long as necessary to provide educational services or comply with legal obligations. Users may request complete data deletion upon account termination."
+        section: "Data Retention"
+        note: "States retention period and deletion upon termination."

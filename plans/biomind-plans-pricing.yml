@@ -1,0 +1,49 @@
+generated: '2026-09-28'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.biomindhealth.com/pricing.html
+sources:
+- https://www.biomindhealth.com/pricing.html
+name: BioMind pricing
+audience: business-product
+pricing_basis: flat-platform
+plans:
+- name: Freemium
+  price_text: Free
+  description: Core BioMind Health experience, selected intelligence access, selected knowledge libraries, educational health information
+  features:
+  - Core BioMind Health experience
+  - Selected intelligence access
+  - Selected knowledge libraries
+  - Educational health information
+- name: Premium
+  price_text: ₹2,499
+  price: 2499
+  description: Deeper personal health intelligence with expanded modules and libraries
+  features:
+  - Core intelligence modules
+  - Personalized Protocol Engine
+  - Grounded AI
+  - Expanded knowledge libraries
+  - Personal health intelligence
+  - Evidence-aware knowledge navigation
+- name: Elite
+  price_text: Coming Soon
+  description: Advanced intelligence capabilities in development
+  features:
+  - Everything in Premium
+  - Oracle AI
+  - Parasite Cleansing Intelligence
+  - Disease Intelligence
+  - Environmental Intelligence
+  - Genetic Library / SNP Intelligence
+  - Plant Medicine Intelligence
+  - Nutrients & Minerals Intelligence
+  - Organ Failure Intelligence
+  - Body Pain Intelligence
+  - Clothing Intelligence
+  - Aesthetic Intelligence
+  - Spiritual Intelligence
+  - Advanced research capabilities
+  - More features coming soon
+docs: https://www.biomindhealth.com/pricing.html
